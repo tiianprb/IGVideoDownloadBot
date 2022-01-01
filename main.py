@@ -14,7 +14,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-token = 'Your token from telegram'
+token = '1804316973:AAFK5KHz402hE9uQbTSNCcIt1jJBvREApos'
 bot = telegram.Bot(token=token)
 
 #Command handlers, they take 2 parameters, update and context
@@ -66,7 +66,7 @@ def downloadVideo(url):
         extension = '.mp4'
     else:
         post = Post(url)
-        extension = '.png'
+        extension = '.mp4'
         
     post.scrape()
     filename = datetime.datetime.now().strftime("%d%m%Y-%H%M%s") + extension
