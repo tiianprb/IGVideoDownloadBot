@@ -14,7 +14,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-token = '1804316973:AAFK5KHz402hE9uQbTSNCcIt1jJBvREApos'
+token = '5099807719:AAEdd2nm4c0qM5ksZAQjo3XaqYNq3Hmfj50'
 bot = telegram.Bot(token=token)
 
 #Command handlers, they take 2 parameters, update and context
